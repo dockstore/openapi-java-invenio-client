@@ -13,14 +13,14 @@ public class ZenodoClientTest {
     @BeforeEach
     void setup() {
         ApiClient client = new ApiClient();
-        client.setBasePath("https://inveniordm.web.cern.ch/api");
+        client.setBasePath("https://inveniordm.web.cern.ch");
         recordsApi = new RecordsApi(client);
     }
 
     @Test
     public void testRecordsSearch() throws ApiException {
         // uh oh, their openapi is incomplete and has no objects
-        recordsApi.searchRecords(null, "bestmatch", 10, 0, true);
+        recordsApi.searchRecords(null, "bestmatch", 10, null, true);
     }
 
     @Test
