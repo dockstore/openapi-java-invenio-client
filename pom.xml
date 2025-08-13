@@ -24,7 +24,7 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <github.url>scm:git:git@github.com:dockstore/swagger-java-zenodo-client.git</github.url>
+        <github.url>scm:git:git@github.com:dockstore/openapi-java-zenodo-client.git</github.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dockstore-core.version>1.17.1</dockstore-core.version>
         <maven-failsafe.version>2.21.0</maven-failsafe.version>
