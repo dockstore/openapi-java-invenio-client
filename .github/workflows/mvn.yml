@@ -25,6 +25,6 @@ jobs:
         uses: actions/setup-java@v6
         with:
           java-version: '17.0.4+8'
-          distribution: 'adopt'           
+          distribution: 'temurin'
       - name: Build with mvn
         run: ./mvnw -B -ntp  clean install
